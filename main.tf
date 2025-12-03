@@ -17,14 +17,3 @@ resource "github_branch_default" "main" {
   branch     = "main"
 }
 
-resource "github_branch_protection" "main" {
-  repository_id = github_repository.demo.node_id
-  pattern       = "main"
-
-  required_pull_request_reviews {
-    required_approving_review_count = 1
-    dismiss_stale_reviews           = true
-  }
-
-  enforce_admins = false
-}
