@@ -23,6 +23,7 @@ resource "github_repository" "demo" {
   merge_commit_message        = "PR_TITLE"
 }
 
+
 resource "github_branch_default" "main" {
   repository = github_repository.demo.name
   branch     = "main"
