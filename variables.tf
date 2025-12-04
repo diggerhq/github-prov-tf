@@ -7,7 +7,7 @@ variable "repository_name" {
 variable "repository_description" {
   description = "Description of the repository"
   type        = string
-  default     = "Demo repository created with Terraform"
+  default     = "001 Updated Description"
 }
 
 variable "visibility" {
