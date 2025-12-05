@@ -9,6 +9,8 @@ resource "github_repository" "demo" {
   has_downloads  = false
   has_projects   = false
 
+
+
   delete_branch_on_merge = true
 
   # Merge strategies - at least one must be enabled
