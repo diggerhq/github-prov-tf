@@ -3,6 +3,7 @@ resource "github_repository" "demo" {
   description = var.repository_description
   visibility  = var.visibility
 
+
   auto_init      = true
   has_issues     = true
   has_wiki       = false
