@@ -5,7 +5,7 @@ variable "repository_name" {
 }
 
 variable "repository_description" {
-  description = "Description of the repository"
+  description = "Description of the repository 2"
   type        = string
   default     = "001 Updated Description"
 }
