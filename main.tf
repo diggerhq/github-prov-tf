@@ -11,6 +11,7 @@ resource "github_repository" "demo" {
 
   delete_branch_on_merge = true
 
+
   # Merge strategies - at least one must be enabled
   allow_merge_commit = true
   allow_squash_merge = true
