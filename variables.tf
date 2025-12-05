@@ -1,7 +1,7 @@
 variable "repository_name" {
   description = "Name of the GitHub repository to create"
   type        = string
-  default     = "my-demo-repo"
+  default     = "demo-repo-001"
 }
 
 variable "repository_description" {
